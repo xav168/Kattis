@@ -1,1 +1,1 @@
-"#Kattis" 
+This is my repository where i will attempt to keep track of my kattis solutions, while trying to use git at the same time.
