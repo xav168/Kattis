@@ -65,6 +65,19 @@ class Kattio extends PrintWriter {
     public String getWord() {
         return nextToken();
     }
+    
+    public String getLine() {
+        String str = ""; 
+        try
+        { 
+            str = r.readLine(); 
+        } 
+            catch (IOException e) 
+        { 
+            e.printStackTrace(); 
+        } 
+        return str; 
+    }
 
 
 
